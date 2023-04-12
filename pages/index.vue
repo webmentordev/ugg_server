@@ -9,4 +9,14 @@
             </div>
         </div>
     </header>
+    <section class="bg-dark w-full">
+        <div class="max-w-4xl m-auto py-12 px-4 grid grid-cols-2 gap-6 items-center">
+            <div class="py-6 pl-8 border-l border-white/10">
+                <h2 class="text-4xl text-white mb-3 flex items-center">Store <img class="ml-3" src="@/assets/images/icons/gears.png" width="50" alt="Gear"></h2>
+                <p class="text-white/80 text-sm leading-7 mb-3">Enhance your Rust gaming endeavor with our esteemed store's VIP membership, providing you with exclusive in-game merchandise such as items, weapons, and skins. Elevate your gameplay experience and embark on the ultimate Rust adventure by becoming a VIP member today</p>
+                <NuxtLink to="/" class="bg-white py-2 px-4 inline-block">Go Shopping</NuxtLink>
+            </div>
+            <img src="@/assets/images/store.webp" alt="Rust Scientist">
+        </div>
+    </section>
 </template>
