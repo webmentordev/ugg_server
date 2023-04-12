@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4, a, .head{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    background-image: url('../images/background.png');
+    @apply w-full h-screen bg-center bg-cover relative;
+}
+
+.discord-section{
+    background-image: url('../images/discord.png');
+    @apply bg-cover bg-center;
+}
