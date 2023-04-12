@@ -2,8 +2,15 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
-        'nuxt-icon'
+        'nuxt-icon',
+        '@nuxt/image-edge'
     ],
+    image: {
+        domains: [
+            'discordapp.com',
+            'cdn.discordapp.com'
+        ]  
+    },
     app: {
         head: {
             title: "UGG Rust Servers",

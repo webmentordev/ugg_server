@@ -7,6 +7,10 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    @apply bg-dark;
+}
 h1,h2,h3,h4, a, .head{
     font-family: 'Bebas Neue', cursive;
 }

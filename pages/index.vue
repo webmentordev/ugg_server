@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="h-full w-full absolute top-0 left-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
+        <div class="h-full min-w-full absolute top-0 left-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
         <div class="relative z-10 h-full w-full flex items-center text-white max-w-4xl m-auto px-4">
             <div class="flex flex-col max-w-3xl">
                 <h1 class="text-8xl">Conquer the <br> challenges of <br> Black Island Rust</h1>

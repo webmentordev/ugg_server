@@ -5,7 +5,7 @@
             <ul class="flex items-center text-white/80">
                 <li><NuxtLink class="text-lg ml-9" to="/">Home</NuxtLink></li>
                 <li><NuxtLink class="text-lg ml-9" to="/rules">Rules</NuxtLink></li>
-                <li><NuxtLink class="text-lg ml-9" to="/">Servers</NuxtLink></li>
+                <li><NuxtLink class="text-lg ml-9" to="/stats">Stats</NuxtLink></li>
                 <li><NuxtLink class="text-lg ml-5 bg-rust py-2 px-5 rounded-sm" to="/">Store</NuxtLink></li>
             </ul>
         </div>
