@@ -31,6 +31,9 @@
 <script setup>
     const stats = ref({});
     const pending = ref(true);
+    useHead({
+        title: "UGG Rust Servers - Stats"
+    });
     useFetch('/api/stats').then((result) => {
         stats.value = result.data.value.data;
         pending.value = false;

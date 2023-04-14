@@ -14,6 +14,11 @@
 
 <script setup>
     const rules = ref([]);
+
+    useHead({
+        title: "UGG Rust Servers - Rules"
+    });
+
     $fetch('/api/rules').then((result) => {;
         rules.value = result
     });
