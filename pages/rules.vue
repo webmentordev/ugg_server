@@ -4,7 +4,7 @@
             <h1 class="text-4xl text-white mb-4">Our Server Rules</h1>
             <div v-for="(rule, index) in rules" :key="index" class="border border-white/10 mb-6 flex">
                 <span class=" text-white bg-white/10 p-3 w-fit">
-                    {{ index }}
+                    {{ index + 1 }}
                 </span>
                 <p class="p-6 w-full text-light font-light text-s">{{ rule }}</p>
             </div>

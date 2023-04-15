@@ -9,6 +9,20 @@ module.exports = {
     ],
     theme: {
       extend: {
+        screens: {
+          "850px": {
+            "max": "850px"
+          },
+          "620px": {
+            "max": "620px"
+          },
+          "540px": {
+            "max": "540px"
+          },
+          "400px": {
+            "max": "400px"
+          }
+        },
         colors: {
             'dark': "#0c0c0d",
             'light': "#e5e7eb",

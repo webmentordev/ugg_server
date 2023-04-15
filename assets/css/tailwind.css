@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'ugg-font';
+    src: url('../fonts/GOTHICB0.TTF');
+}
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -12,7 +17,7 @@ body{
     @apply bg-dark;
 }
 h1,h2,h3,h4, a, .head{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'ugg-font';
 }
 header{
     background-image: url('../images/background.png');
@@ -21,4 +26,8 @@ header{
 .discord-section{
     background-image: url('../images/discord.png');
     @apply bg-cover bg-center;
+}
+
+.span{
+    font-family: 'Bebas Neue', cursive;
 }
