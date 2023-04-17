@@ -13,13 +13,13 @@
         <div class="max-w-4xl m-auto py-12 px-4 items-center">
             <h2 class="text-3xl text-white mb-2 730px:text-center">Our Memeberships</h2>
             <div class="grid grid-cols-2 gap-2 730px:grid-cols-1 m-auto 730px:max-w-[450px]">
-                <NuxtLink class="relative w-full" to="https://app.gpay.io/store/uggrust/14032">
+                <NuxtLink class="relative w-full" target="_blank" to="https://app.gpay.io/store/uggrust/14032">
                 <img src="@/assets/images/vip.png" alt="VIP Package Image">
-                <span class="py-2 px-4 bg-white absolute left-3 bottom-8 font-semibold">OrderNow</span>
+                <span class="py-2 px-4 bg-white absolute left-3 bottom-8 font-semibold">Become VIP</span>
                 </NuxtLink>
-                <NuxtLink class="relative w-full" to="https://app.gpay.io/store/uggrust/14032">
+                <NuxtLink class="relative w-full" target="_blank" to="https://app.gpay.io/store/uggrust/14032">
                     <img src="@/assets/images/mvp.png" alt="MVP Package Image">
-                    <span class="py-2 px-4 bg-white absolute left-3 bottom-8 font-semibold">OrderNow</span>
+                    <span class="py-2 px-4 bg-white absolute left-3 bottom-8 font-semibold">Become MVP</span>
                 </NuxtLink>
             </div>
         </div>
