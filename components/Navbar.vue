@@ -6,7 +6,7 @@
                 <li><NuxtLink class="text-lg ml-9" to="/">Home</NuxtLink></li>
                 <li><NuxtLink class="text-lg ml-9" to="/rules">Rules</NuxtLink></li>
                 <li><NuxtLink class="text-lg ml-9" to="/stats">Stats</NuxtLink></li>
-                <li><NuxtLink class="text-lg ml-5 bg-rust py-2 px-5 rounded-sm" to="https://app.gpay.io/store/uggrust/14032" target="_blank" rel="nofollow">Store</NuxtLink></li>
+                <li><NuxtLink class="text-lg ml-5 bg-rust py-2 px-5 rounded-sm" to="steam://connect/194.29.100.247:28015">Connect</NuxtLink></li>
             </ul>
             <div class="hidden 540px:flex" @click="toggle = !toggle">
                 <img src="https://api.iconify.design/tabler:align-right.svg?color=%23ffffff" width="45" alt="Burger Icon">
@@ -18,7 +18,7 @@
             <li class="my-3"><NuxtLink class="text-lg text-white" to="/">Home</NuxtLink></li>
             <li class="my-3"><NuxtLink class="text-lg text-white" to="/rules">Rules</NuxtLink></li>
             <li class="my-3"><NuxtLink class="text-lg text-white" to="/stats">Stats</NuxtLink></li>
-            <li class="my-3"><NuxtLink class="text-lg text-white bg-rust py-2 px-5 rounded-sm" to="https://app.gpay.io/store/uggrust/14032" target="_blank" rel="nofollow">Store</NuxtLink></li>
+            <li class="my-3"><NuxtLink class="text-lg text-white bg-rust py-2 px-5 rounded-sm" to="steam://connect/194.29.100.247:28015">Connect</NuxtLink></li>
         </ul>
     </div>
     
